@@ -1,0 +1,212 @@
+.analyze {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.analyze-header {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.analyze-log {
+    width: 30%;
+    text-align: center;
+}
+
+.analyze-log img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+
+.analyze-content {
+    width: 70%;
+    height: 65px;
+    line-height: 65px;
+}
+
+.analyze-content span {
+    font-size: 15px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.suggest {
+    padding: 10px 10px;
+    font-size: 15px;
+    color: #555;
+}
+
+.information {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.information-title {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #555;
+}
+
+.information-info {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0px 0 25px 0;
+}
+
+.information ul li {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.information ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.information ul li a span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+}
+
+.information ul li a span .iconfont {
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.information ul li a p {
+    width: 100%;
+    font-size: 14px;
+    height: 20px;
+    color: #000;
+    margin: 3px 0;
+}
+
+.information ul li a .information-name {
+    font-size: 15px;
+}
+
+.information ul li a .information-datas {
+    font-size: 13px;
+    color: #555;
+}
+
+.result {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.result span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #758fbf;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.icon-iconsg {
+    background-color: #2ad382;
+}
+
+.icon-tizhong {
+    background-color: #54c2f1;
+}
+
+.icon-zhishu {
+    background-color: #fe78cd;
+}
+.icon-ic_invert_colors_p{
+    background-color: #cd9ffe;
+}
+.icon-jiadianxinlv{
+    background-color: #fea14f;
+}
+.icon-tiwen{
+    background-color: #2acc7b;
+}
+.icon-gaishuai{
+    background-color: #fe9c56;
+}
+.icon-diya{
+    background-color: #1cc1e6;
+}
+.icon-gaoya{
+    background-color: #a0a0f0;
+}
+.icon-Group{
+    background-color: #63d46d;
+}
+.icon-shuju{
+    background-color: #c299f1;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    width: 100%;
+}
+
+.swiper-slide {
+    width: 100%;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #758fbf;
+}
+
+.swiper-slide {
+    height: 10px
+}
+
+.swiper-slide-active {
+    height: auto
+}
+.data-show{
+    margin-top: 30px;
+}

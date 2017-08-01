@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测量报告</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="viewport"
+          content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="generator" content=""/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content=""/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="">
+
+    <!--图标字体-->
+    <link rel="stylesheet" href="fonts/iconfont.css">
+
+    <!--swiper-->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        .mobile-inner-nav a{
+            -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-name: returnToNormal;
+            animation-name: returnToNormal;
+        }
+
+        @-webkit-keyframes returnToNormal {
+            0% {
+                opacity: 0;
+                -webkit-transform: translate3d(0, -100%, 0);
+                transform: translate3d(0, -100%, 0);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none;
+            }
+        }
+
+        @keyframes returnToNormal {
+            0% {
+                opacity: 0;
+                -webkit-transform: translate3d(0, -100%, 0);
+                transform: translate3d(0, -100%, 0);
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <a href="javascript:;" class="fl">
+        <i class="iconfont icon-qianjin-copy"></i>
+    </a>
+    <h3>测量报告</h3>
+</header>
+
+<div class="mobile-inner-header">
+    <div class="mobile-inner-header-icon mobile-inner-header-icon-out">
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+<div class="mobile-inner-nav" style="display: none;">
+    <a href="#" style="animation-delay: 0s;">身高体重类</a>
+    <a href="#" style="animation-delay: 0.1s;">脂肪类</a>
+    <a href="#" style="animation-delay: 0.2s;">血压类</a>
+</div>
+
+<div class="analyze">
+    <div class="analyze-header clearfix">
+        <div class="analyze-log fl">
+            <img src="images/header.jpg" alt="">
+        </div>
+        <div class="analyze-content fl">
+            <span>性别:男</span>
+            <span>年龄:25</span>
+        </div>
+        <div class="suggest fl">
+            <p>您的体重处于偏胖的状态，应该多做运动及多吃含丰富丰富维生素的食物，具体可以参考运动建议及饮食建议。</p>
+        </div>
+    </div>
+</div>
+
+<!--数据内容-->
+<div class="information">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="information-info stature ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s"
+                     swiper-animate-delay="0.1s">
+                    <div class="information-title">
+                        <span>身高体重类</span>
+                    </div>
+                    <ul class="clearfix">
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-iconsg"></i>
+                                 </span>
+                                <p class="information-name">身高</p>
+                                <p class="information-datas">175&nbsp;cm</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-tizhong"></i>
+                                </span>
+                                <p class="information-name">体重</p>
+                                <p class="information-datas">50&nbsp;kg</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-zhishu"></i>
+                                </span>
+                                <p class="information-name">体质指数</p>
+                                <p class="information-datas">18.5&nbsp;BMI</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="result">
+                        <span>检测结果：偏重</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="information-info axunge ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s"
+                     swiper-animate-delay="0.1s">
+                    <div class="information-title">
+                        <span>脂肪类</span>
+                    </div>
+                    <ul class="clearfix">
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-shuju"></i>
+                                </span>
+                                <p class="information-name">脂肪含量</p>
+                                <p class="information-datas">19&nbsp;kg</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-gaishuai"></i>
+                                </span>
+                                <p class="information-name">脂肪率</p>
+                                <p class="information-datas">36&nbsp;%</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-Group"></i>
+                                </span>
+                                <p class="information-name">基础代谢</p>
+                                <p class="information-datas">1121&nbsp;kacl</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-shuju"></i>
+                                </span>
+                                <p class="information-name">体水分量</p>
+                                <p class="information-datas">29&nbsp;kg</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-gaishuai"></i>
+                                </span>
+                                <p class="information-name">体水分率</p>
+                                <p class="information-datas">56&nbsp;%</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-shuju"></i>
+                                </span>
+                                <p class="information-name">体肌肉量</p>
+                                <p class="information-datas">29&nbsp;kg</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-gaishuai"></i>
+                                </span>
+                                <p class="information-name">体肌肉率</p>
+                                <p class="information-datas">43&nbsp;%</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-shuju"></i>
+                                </span>
+                                <p class="information-name">体骨骼量</p>
+                                <p class="information-datas">19&nbsp;kg</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-gaishuai"></i>
+                                </span>
+                                <p class="information-name">体骨骼率</p>
+                                <p class="information-datas">23&nbsp;%</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="result">
+                        <span>检测结果：正常</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="information-info pressure ani" swiper-animate-effect="bounceInDown"
+                     swiper-animate-duration="0.5s"
+                     swiper-animate-delay="0.1s">
+                    <div class="information-title">
+                        <span>血压类</span>
+                    </div>
+                    <ul class="clearfix">
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-gaoya"></i>
+                                </span>
+                                <p class="information-name">高压</p>
+                                <p class="information-datas">103&nbsp;mmHg</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-diya"></i>
+                                </span>
+                                <p class="information-name">低压</p>
+                                <p class="information-datas">74&nbsp;mmHg</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-jiadianxinlv"></i>
+                                </span>
+                                <p class="information-name">心率</p>
+                                <p class="information-datas">78&nbsp;bpm</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-ic_invert_colors_p"></i>
+                                </span>
+                                <p class="information-name">血氧饱和度</p>
+                                <p class="information-datas">78&nbsp;%</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <i class="iconfont icon-tiwen"></i>
+                                </span>
+                                <p class="information-name">体温</p>
+                                <p class="information-datas">37&nbsp;&#8451;</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="result">
+                        <span>检测结果：正常</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+<!--数据展现-->
+
+<div class="data-show">
+    <div id="line" style="max-width:100%;height:260px"></div>
+</div>
+
+</body>
+<!--jquery-->
+<script src="js/jquery-2.1.4.min.js"></script>
+<!--swiper-->
+<script src="js/swiper.jquery.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+<!--Highcharts-->
+<script src="js/highcharts.js"></script>
+<script src="js/highcharts-zh_CN.js"></script>
+
+<script src="js/index.js"></script>
+
+</html>
