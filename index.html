@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
     <style>
-        .mobile-inner-nav a{
+        .mobile-inner-nav a {
             -webkit-animation-duration: 0.5s;
             animation-duration: 0.5s;
             -webkit-animation-fill-mode: both;
@@ -107,7 +107,7 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="information-info stature ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s"
+                <div class="information-info stature ani" swiper-animate-effect="zoomIn"
                      swiper-animate-delay="0.1s">
                     <div class="information-title">
                         <span>身高体重类</span>
@@ -147,7 +147,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="information-info axunge ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s"
+                <div class="information-info axunge ani" swiper-animate-effect="zoomIn"
                      swiper-animate-delay="0.1s">
                     <div class="information-title">
                         <span>脂肪类</span>
@@ -241,9 +241,8 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="information-info pressure ani" swiper-animate-effect="bounceInDown"
-                     swiper-animate-duration="0.5s"
-                     swiper-animate-delay="0.1s">
+                <div class="information-info pressure ani" swiper-animate-effect="zoomIn"
+                     swiper-animate-duration="0.5s">
                     <div class="information-title">
                         <span>血压类</span>
                     </div>
@@ -320,6 +319,17 @@
 <!--Highcharts-->
 <script src="js/highcharts.js"></script>
 <script src="js/highcharts-zh_CN.js"></script>
+<!--fastclick-->
+<script src="js/fastclick.js"></script>
+<script>
+    $(function () {
+        window.onload = function () {
+
+            FastClick.attach(document.body);
+
+        }
+    });
+</script>
 
 <script src="js/index.js"></script>
 
