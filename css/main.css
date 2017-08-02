@@ -191,6 +191,7 @@
     float: right;
     width: 50px;
     position: relative;
+    background-color: transparent;
 }
 
 .mobile-inner-header-icon:hover {

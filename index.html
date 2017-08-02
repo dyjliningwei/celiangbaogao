@@ -21,50 +21,10 @@
 
     <!--swiper-->
     <link rel="stylesheet" href="css/swiper.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
 
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
-    <style>
-        .mobile-inner-nav a {
-            -webkit-animation-duration: 0.5s;
-            animation-duration: 0.5s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-            -webkit-animation-name: returnToNormal;
-            animation-name: returnToNormal;
-        }
-
-        @-webkit-keyframes returnToNormal {
-            0% {
-                opacity: 0;
-                -webkit-transform: translate3d(0, -100%, 0);
-                transform: translate3d(0, -100%, 0);
-            }
-
-            100% {
-                opacity: 1;
-                -webkit-transform: none;
-                transform: none;
-            }
-        }
-
-        @keyframes returnToNormal {
-            0% {
-                opacity: 0;
-                -webkit-transform: translate3d(0, -100%, 0);
-                transform: translate3d(0, -100%, 0);
-            }
-
-            100% {
-                opacity: 1;
-                -webkit-transform: none;
-                transform: none;
-            }
-        }
-
-    </style>
 </head>
 <body>
 <header>
@@ -107,8 +67,7 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="information-info stature ani" swiper-animate-effect="zoomIn"
-                     swiper-animate-delay="0.1s">
+                <div class="information-info">
                     <div class="information-title">
                         <span>身高体重类</span>
                     </div>
@@ -147,8 +106,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="information-info axunge ani" swiper-animate-effect="zoomIn"
-                     swiper-animate-delay="0.1s">
+                <div class="information-info">
                     <div class="information-title">
                         <span>脂肪类</span>
                     </div>
@@ -241,8 +199,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="information-info pressure ani" swiper-animate-effect="zoomIn"
-                     swiper-animate-duration="0.5s">
+                <div class="information-info">
                     <div class="information-title">
                         <span>血压类</span>
                     </div>
@@ -315,7 +272,6 @@
 <script src="js/jquery-2.1.4.min.js"></script>
 <!--swiper-->
 <script src="js/swiper.jquery.min.js"></script>
-<script src="js/swiper.animate1.0.2.min.js"></script>
 <!--Highcharts-->
 <script src="js/highcharts.js"></script>
 <script src="js/highcharts-zh_CN.js"></script>
